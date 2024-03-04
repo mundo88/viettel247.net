@@ -7593,13 +7593,7 @@
           jQuery(this)
             .parent()
             .addClass("has-child")
-            .attr("aria-expanded", "false"),
-            jQuery(this).before(
-              '<button class="toggle"><i class="icon-angle-'.concat(
-                t,
-                '"></i></button>'
-              )
-            );
+            .attr("aria-expanded", "false")
         }),
           jQuery(".current-cat-parent", t)
             .addClass("active")
